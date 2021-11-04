@@ -1,0 +1,12 @@
+.Header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Header button {
+  background-color: transparent;
+  margin: auto 0;
+  height: 40px;
+  width: 120px;
+  font-size: 15px;
+  font-weight: bold;
+}
