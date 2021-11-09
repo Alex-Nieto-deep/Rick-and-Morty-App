@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-
+import { useState } from 'react';
 
 function useDarkMode() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return [darkMode, setDarkMode];
 }
